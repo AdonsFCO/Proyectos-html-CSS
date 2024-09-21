@@ -1,18 +1,24 @@
-
-table, th, td {
-  border:1px solid black;
+table,
+th,
+td {
+  border: 1px solid black;
 }
 
+.foto {
+  width: 250px;
 
-.foto
-
-
-{ width: 250px;
-
-height: auto;
- 
+  height: auto;
 }
 
-.cuadroDescripcion
+.cuadroDescripcion {
+  width: 200px;
+}
 
-{width: 200px;}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(61, 2, 2);
+
+  background-color: rgb(237, 217, 188);
+}
